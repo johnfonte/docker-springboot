@@ -16,8 +16,7 @@ public class RandomNumberGenerator {
 
     public RandomNumberGenerator(
             RabbitTemplate rabbitTemplate,
-            MessageSentRepository messageSentRepository,
-            RabbitMQConfig rabbitMQConfig
+            MessageSentRepository messageSentRepository
     ) {
         this.rabbitTemplate = rabbitTemplate;
         this.messageSentRepository = messageSentRepository;
